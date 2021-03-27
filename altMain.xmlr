@@ -1,0 +1,88 @@
+<Game Name='firstPersonGame17'>
+<SceneContexts>
+<SceneContext>
+<MyLogic>
+<OnUpdate>
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y  = 0.025; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.025; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(16); )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-16); )]'>
+</SceneContextProceduralStatement>
+</OnUpdate>
+</MyLogic>
+<Scenes>
+<Scene>
+<Threntities>
+<Threntity Name='roomcl' X='0' Y='256' Z='0' W='2048' H='4' D='2048' TileX='0' TileY='0'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='roomflr' X='0' Y='-256' Z='0' W='2048' H='4' D='2048' TileX='0' TileY='0'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='roomw1p1' X='1024' Y='0' Z='0' W='4' H='512' D='1024' TileX='0' TileY='0'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='roomw2p1' X='0' Y='0' Z='1024' W='1024' H='512' D='4' TileX='0' TileY='0'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='roomw3p1' X='-1024' Y='0' Z='-1024' W='4' H='512' D='1024' TileX='0' TileY='0'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='roomw4p1' X='0' Y='0' Z='-1024' W='1024' H='512' D='4' TileX='0' TileY='0'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='prims1'>
+<MyPrimitives>
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+</Primitive>
+<Primitive Name='prim1' FX='0' FY='0' FZ='0' SX='512' SY='512' SZ='512' TX='0' TY='256' TZ='512'>
+<PrimitiveImages>
+<ImageFrames>
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+</PrimitiveImageFrame>
+</ImageFrames>
+</PrimitiveImages>
+</Primitive>
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+</Primitive>
+</MyPrimitives>
+</Threntity>
+</Threntities>
+</Scene>
+</Scenes>
+</SceneContext>
+</SceneContexts>
+</Game>

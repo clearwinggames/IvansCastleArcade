@@ -1,0 +1,11 @@
+StoneRoomGrid3D{$Name;#DoorWidth;#GW;#TX;#TY;#GH;#GD;#RW;#RH;#RD;#X;#Y;#Z}[rn]
+for(int k=0;k<GD;k++){
+for(int j=0;j<GH;j++){
+for(int i=0;i<GW;i++){	
+bool gen = (k == 0);
+if (gen) { gen = (j == 0); }
+if (gen) { gen = (i == 0); }
+[<StoneRoom3D Name={{(Name+k.ToString()+j.ToString()+i.ToString())}} DoorW={{DoorWidth}} TX={{TX}} TY={{TY}} D1='true' D2='true' D3='true' D4='true' GN={{(gen ? "true" : "false")}} X={{(X + (i*RW))}} Y={{(Y + (j * RH))}} Z={{(Z + (k * RD))}} W={{RW}} H={{RH}} D={{RD}} />]
+}
+}
+}

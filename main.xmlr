@@ -1,0 +1,4842 @@
+<Game Name='firstPersonGame86'>
+<SceneContexts>
+<SceneContext>
+<MyLogic>
+<OnUpdate>
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y += 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+</SceneContextProceduralStatement>
+</OnUpdate>
+</MyLogic>
+<Scenes>
+<Scene>
+<Threntities>
+<Threntity Name='blding000cl' X='0' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl' HexCSVKey='B4B4B4,DCDCDC' DelimitedGrid='0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0;0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0;0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0;0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0;0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0;0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0;0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0;1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1;1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1;1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1;1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1;1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1;1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1;1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1;0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0;0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0;0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0;0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0;0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0;0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0;0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0;1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1;1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1;1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1;1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1;1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1;1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1;1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1;'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding000flr' X='0' Y='-384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding000w1p1' X='2048' Y='0' Z='-608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW' HexCSVKey='5A5A5A,878787,959595,9D9D9D,A5A5A5' DelimitedGrid='0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0;0,1,2,2,2,2,2,2,2,2,2,2,2,2,1,0,0,1,2,2,2,2,2,2,2,2,2,2,2,2,1,0;0,1,2,3,3,3,3,3,3,3,3,3,3,2,1,0,0,1,2,3,3,3,3,3,3,3,3,3,3,2,1,0;0,1,2,3,3,3,3,3,3,3,3,3,3,2,1,0,0,1,2,3,3,3,3,3,3,3,3,3,3,2,1,0;0,1,2,2,2,2,2,2,2,2,2,2,2,2,1,0,0,1,2,2,2,2,2,2,2,2,2,2,2,2,1,0;0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0;1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1;2,2,2,2,2,2,1,0,0,1,2,2,2,2,2,2,2,2,2,2,2,2,1,0,0,1,2,2,2,2,2,2;4,4,4,4,4,2,1,0,0,1,2,3,3,3,3,3,3,3,3,3,3,2,1,0,0,1,2,3,3,3,3,3;4,4,4,4,4,2,1,0,0,1,2,3,3,3,3,3,3,3,3,3,3,2,1,0,0,1,2,3,3,3,3,3;2,2,2,2,2,2,1,0,0,1,2,2,2,2,2,2,2,2,2,2,2,2,1,0,0,1,2,2,2,2,2,2;1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1;0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0;0,1,2,2,2,2,2,2,2,2,2,2,2,2,1,0,0,1,2,2,2,2,2,2,2,2,2,2,2,2,1,0;0,1,2,3,3,3,3,3,3,3,3,3,3,2,1,0,0,1,2,3,3,3,3,3,3,3,3,3,3,2,1,0;0,1,2,3,3,3,3,3,3,3,3,3,3,2,1,0,0,1,2,3,3,3,3,3,3,3,3,3,3,2,1,0;0,1,2,2,2,2,2,2,2,2,2,2,2,2,1,0,0,1,2,2,2,2,2,2,2,2,2,2,2,2,1,0;0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0;1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1;2,2,2,2,2,2,1,0,0,1,2,2,2,2,2,2,2,2,2,2,2,2,1,0,0,1,2,2,2,2,2,2;3,3,3,3,3,2,1,0,0,1,2,3,3,3,3,3,3,3,3,3,3,2,1,0,0,1,2,3,3,3,3,3;3,3,3,3,3,2,1,0,0,1,2,3,3,3,3,3,3,3,3,3,3,2,1,0,0,1,2,3,3,3,3,3;2,2,2,2,2,2,1,0,0,1,2,2,2,2,2,2,2,2,2,2,2,2,1,0,0,1,2,2,2,2,2,2;1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1;0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0;'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding000w1p2' X='2048' Y='0' Z='608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding000w2p1' X='1120' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding000w2p2' X='-1120' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding000w3p1' X='-2048' Y='0' Z='-608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding000w3p2' X='-2048' Y='0' Z='608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding000w4p1' X='-1120' Y='0' Z='-1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding000w4p2' X='1120' Y='0' Z='-1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding001cl' X='4096' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding001flr' X='4096' Y='-384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding001w1p1' X='6144' Y='0' Z='-608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding001w1p2' X='6144' Y='0' Z='608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding001w2p1' X='5216' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding001w2p2' X='2976' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding001w3p1' X='2048' Y='0' Z='-608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding001w3p2' X='2048' Y='0' Z='608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding001w4p1' X='2976' Y='0' Z='-1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding001w4p2' X='5216' Y='0' Z='-1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding002cl' X='8192' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding002flr' X='8192' Y='-384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding002w1p1' X='10240' Y='0' Z='-608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding002w1p2' X='10240' Y='0' Z='608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding002w2p1' X='9312' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding002w2p2' X='7072' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding002w3p1' X='6144' Y='0' Z='-608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding002w3p2' X='6144' Y='0' Z='608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding002w4p1' X='7072' Y='0' Z='-1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding002w4p2' X='9312' Y='0' Z='-1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding003cl' X='12288' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding003flr' X='12288' Y='-384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding003w1p1' X='14336' Y='0' Z='-608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding003w1p2' X='14336' Y='0' Z='608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding003w2p1' X='13408' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding003w2p2' X='11168' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding003w3p1' X='10240' Y='0' Z='-608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding003w3p2' X='10240' Y='0' Z='608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding003w4p1' X='11168' Y='0' Z='-1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding003w4p2' X='13408' Y='0' Z='-1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding004cl' X='16384' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding004flr' X='16384' Y='-384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding004w1p1' X='18432' Y='0' Z='-608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding004w1p2' X='18432' Y='0' Z='608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding004w2p1' X='17504' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding004w2p2' X='15264' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding004w3p1' X='14336' Y='0' Z='-608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding004w3p2' X='14336' Y='0' Z='608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding004w4p1' X='15264' Y='0' Z='-1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding004w4p2' X='17504' Y='0' Z='-1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding010cl' X='0' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding010flr' X='0' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding010w1p1' X='2048' Y='768' Z='-608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding010w1p2' X='2048' Y='768' Z='608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding010w2p1' X='1120' Y='768' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding010w2p2' X='-1120' Y='768' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding010w3p1' X='-2048' Y='768' Z='-608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding010w3p2' X='-2048' Y='768' Z='608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding010w4p1' X='-1120' Y='0' Z='-1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding010w4p2' X='1120' Y='0' Z='-1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding011cl' X='4096' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding011flr' X='4096' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding011w1p1' X='6144' Y='768' Z='-608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding011w1p2' X='6144' Y='768' Z='608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding011w2p1' X='5216' Y='768' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding011w2p2' X='2976' Y='768' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding011w3p1' X='2048' Y='768' Z='-608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding011w3p2' X='2048' Y='768' Z='608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding011w4p1' X='2976' Y='0' Z='-1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding011w4p2' X='5216' Y='0' Z='-1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding012cl' X='8192' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding012flr' X='8192' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding012w1p1' X='10240' Y='768' Z='-608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding012w1p2' X='10240' Y='768' Z='608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding012w2p1' X='9312' Y='768' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding012w2p2' X='7072' Y='768' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding012w3p1' X='6144' Y='768' Z='-608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding012w3p2' X='6144' Y='768' Z='608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding012w4p1' X='7072' Y='0' Z='-1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding012w4p2' X='9312' Y='0' Z='-1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding013cl' X='12288' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding013flr' X='12288' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding013w1p1' X='14336' Y='768' Z='-608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding013w1p2' X='14336' Y='768' Z='608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding013w2p1' X='13408' Y='768' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding013w2p2' X='11168' Y='768' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding013w3p1' X='10240' Y='768' Z='-608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding013w3p2' X='10240' Y='768' Z='608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding013w4p1' X='11168' Y='0' Z='-1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding013w4p2' X='13408' Y='0' Z='-1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding014cl' X='16384' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding014flr' X='16384' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding014w1p1' X='18432' Y='768' Z='-608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding014w1p2' X='18432' Y='768' Z='608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding014w2p1' X='17504' Y='768' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding014w2p2' X='15264' Y='768' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding014w3p1' X='14336' Y='768' Z='-608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding014w3p2' X='14336' Y='768' Z='608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding014w4p1' X='15264' Y='0' Z='-1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding014w4p2' X='17504' Y='0' Z='-1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding020cl' X='0' Y='1920' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding020flr' X='0' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding020w1p1' X='2048' Y='1536' Z='-608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding020w1p2' X='2048' Y='1536' Z='608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding020w2p1' X='1120' Y='1536' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding020w2p2' X='-1120' Y='1536' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding020w3p1' X='-2048' Y='1536' Z='-608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding020w3p2' X='-2048' Y='1536' Z='608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding020w4p1' X='-1120' Y='0' Z='-1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding020w4p2' X='1120' Y='0' Z='-1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding021cl' X='4096' Y='1920' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding021flr' X='4096' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding021w1p1' X='6144' Y='1536' Z='-608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding021w1p2' X='6144' Y='1536' Z='608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding021w2p1' X='5216' Y='1536' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding021w2p2' X='2976' Y='1536' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding021w3p1' X='2048' Y='1536' Z='-608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding021w3p2' X='2048' Y='1536' Z='608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding021w4p1' X='2976' Y='0' Z='-1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding021w4p2' X='5216' Y='0' Z='-1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding022cl' X='8192' Y='1920' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding022flr' X='8192' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding022w1p1' X='10240' Y='1536' Z='-608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding022w1p2' X='10240' Y='1536' Z='608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding022w2p1' X='9312' Y='1536' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding022w2p2' X='7072' Y='1536' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding022w3p1' X='6144' Y='1536' Z='-608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding022w3p2' X='6144' Y='1536' Z='608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding022w4p1' X='7072' Y='0' Z='-1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding022w4p2' X='9312' Y='0' Z='-1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding023cl' X='12288' Y='1920' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding023flr' X='12288' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding023w1p1' X='14336' Y='1536' Z='-608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding023w1p2' X='14336' Y='1536' Z='608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding023w2p1' X='13408' Y='1536' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding023w2p2' X='11168' Y='1536' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding023w3p1' X='10240' Y='1536' Z='-608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding023w3p2' X='10240' Y='1536' Z='608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding023w4p1' X='11168' Y='0' Z='-1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding023w4p2' X='13408' Y='0' Z='-1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding024cl' X='16384' Y='1920' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding024flr' X='16384' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding024w1p1' X='18432' Y='1536' Z='-608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding024w1p2' X='18432' Y='1536' Z='608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding024w2p1' X='17504' Y='1536' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding024w2p2' X='15264' Y='1536' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding024w3p1' X='14336' Y='1536' Z='-608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding024w3p2' X='14336' Y='1536' Z='608' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding024w4p1' X='15264' Y='0' Z='-1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding024w4p2' X='17504' Y='0' Z='-1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding100cl' X='0' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding100flr' X='0' Y='-384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding100w1p1' X='2048' Y='0' Z='1440' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding100w1p2' X='2048' Y='0' Z='2656' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding100w2p1' X='1120' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding100w2p2' X='-1120' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding100w3p1' X='-2048' Y='0' Z='1440' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding100w3p2' X='-2048' Y='0' Z='2656' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding100w4p1' X='-1120' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding100w4p2' X='1120' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding101cl' X='4096' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding101flr' X='4096' Y='-384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding101w1p1' X='6144' Y='0' Z='1440' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding101w1p2' X='6144' Y='0' Z='2656' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding101w2p1' X='5216' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding101w2p2' X='2976' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding101w3p1' X='2048' Y='0' Z='1440' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding101w3p2' X='2048' Y='0' Z='2656' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding101w4p1' X='2976' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding101w4p2' X='5216' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding102cl' X='8192' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding102flr' X='8192' Y='-384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding102w1p1' X='10240' Y='0' Z='1440' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding102w1p2' X='10240' Y='0' Z='2656' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding102w2p1' X='9312' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding102w2p2' X='7072' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding102w3p1' X='6144' Y='0' Z='1440' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding102w3p2' X='6144' Y='0' Z='2656' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding102w4p1' X='7072' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding102w4p2' X='9312' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding103cl' X='12288' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding103flr' X='12288' Y='-384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding103w1p1' X='14336' Y='0' Z='1440' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding103w1p2' X='14336' Y='0' Z='2656' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding103w2p1' X='13408' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding103w2p2' X='11168' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding103w3p1' X='10240' Y='0' Z='1440' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding103w3p2' X='10240' Y='0' Z='2656' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding103w4p1' X='11168' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding103w4p2' X='13408' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding104cl' X='16384' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding104flr' X='16384' Y='-384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding104w1p1' X='18432' Y='0' Z='1440' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding104w1p2' X='18432' Y='0' Z='2656' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding104w2p1' X='17504' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding104w2p2' X='15264' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding104w3p1' X='14336' Y='0' Z='1440' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding104w3p2' X='14336' Y='0' Z='2656' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding104w4p1' X='15264' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding104w4p2' X='17504' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding110cl' X='0' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding110flr' X='0' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding110w1p1' X='2048' Y='768' Z='1440' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding110w1p2' X='2048' Y='768' Z='2656' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding110w2p1' X='1120' Y='768' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding110w2p2' X='-1120' Y='768' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding110w3p1' X='-2048' Y='768' Z='1440' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding110w3p2' X='-2048' Y='768' Z='2656' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding110w4p1' X='-1120' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding110w4p2' X='1120' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding111cl' X='4096' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding111flr' X='4096' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding111w1p1' X='6144' Y='768' Z='1440' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding111w1p2' X='6144' Y='768' Z='2656' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding111w2p1' X='5216' Y='768' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding111w2p2' X='2976' Y='768' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding111w3p1' X='2048' Y='768' Z='1440' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding111w3p2' X='2048' Y='768' Z='2656' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding111w4p1' X='2976' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding111w4p2' X='5216' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding112cl' X='8192' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding112flr' X='8192' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding112w1p1' X='10240' Y='768' Z='1440' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding112w1p2' X='10240' Y='768' Z='2656' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding112w2p1' X='9312' Y='768' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding112w2p2' X='7072' Y='768' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding112w3p1' X='6144' Y='768' Z='1440' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding112w3p2' X='6144' Y='768' Z='2656' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding112w4p1' X='7072' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding112w4p2' X='9312' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding113cl' X='12288' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding113flr' X='12288' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding113w1p1' X='14336' Y='768' Z='1440' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding113w1p2' X='14336' Y='768' Z='2656' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding113w2p1' X='13408' Y='768' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding113w2p2' X='11168' Y='768' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding113w3p1' X='10240' Y='768' Z='1440' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding113w3p2' X='10240' Y='768' Z='2656' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding113w4p1' X='11168' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding113w4p2' X='13408' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding114cl' X='16384' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding114flr' X='16384' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding114w1p1' X='18432' Y='768' Z='1440' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding114w1p2' X='18432' Y='768' Z='2656' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding114w2p1' X='17504' Y='768' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding114w2p2' X='15264' Y='768' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding114w3p1' X='14336' Y='768' Z='1440' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding114w3p2' X='14336' Y='768' Z='2656' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding114w4p1' X='15264' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding114w4p2' X='17504' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding120cl' X='0' Y='1920' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding120flr' X='0' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding120w1p1' X='2048' Y='1536' Z='1440' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding120w1p2' X='2048' Y='1536' Z='2656' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding120w2p1' X='1120' Y='1536' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding120w2p2' X='-1120' Y='1536' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding120w3p1' X='-2048' Y='1536' Z='1440' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding120w3p2' X='-2048' Y='1536' Z='2656' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding120w4p1' X='-1120' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding120w4p2' X='1120' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding121cl' X='4096' Y='1920' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding121flr' X='4096' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding121w1p1' X='6144' Y='1536' Z='1440' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding121w1p2' X='6144' Y='1536' Z='2656' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding121w2p1' X='5216' Y='1536' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding121w2p2' X='2976' Y='1536' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding121w3p1' X='2048' Y='1536' Z='1440' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding121w3p2' X='2048' Y='1536' Z='2656' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding121w4p1' X='2976' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding121w4p2' X='5216' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding122cl' X='8192' Y='1920' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding122flr' X='8192' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding122w1p1' X='10240' Y='1536' Z='1440' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding122w1p2' X='10240' Y='1536' Z='2656' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding122w2p1' X='9312' Y='1536' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding122w2p2' X='7072' Y='1536' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding122w3p1' X='6144' Y='1536' Z='1440' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding122w3p2' X='6144' Y='1536' Z='2656' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding122w4p1' X='7072' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding122w4p2' X='9312' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding123cl' X='12288' Y='1920' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding123flr' X='12288' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding123w1p1' X='14336' Y='1536' Z='1440' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding123w1p2' X='14336' Y='1536' Z='2656' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding123w2p1' X='13408' Y='1536' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding123w2p2' X='11168' Y='1536' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding123w3p1' X='10240' Y='1536' Z='1440' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding123w3p2' X='10240' Y='1536' Z='2656' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding123w4p1' X='11168' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding123w4p2' X='13408' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding124cl' X='16384' Y='1920' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding124flr' X='16384' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding124w1p1' X='18432' Y='1536' Z='1440' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding124w1p2' X='18432' Y='1536' Z='2656' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding124w2p1' X='17504' Y='1536' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding124w2p2' X='15264' Y='1536' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding124w3p1' X='14336' Y='1536' Z='1440' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding124w3p2' X='14336' Y='1536' Z='2656' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding124w4p1' X='15264' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding124w4p2' X='17504' Y='0' Z='1024' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding200cl' X='0' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding200flr' X='0' Y='-384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding200w1p1' X='2048' Y='0' Z='3488' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding200w1p2' X='2048' Y='0' Z='4704' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding200w2p1' X='1120' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding200w2p2' X='-1120' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding200w3p1' X='-2048' Y='0' Z='3488' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding200w3p2' X='-2048' Y='0' Z='4704' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding200w4p1' X='-1120' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding200w4p2' X='1120' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding201cl' X='4096' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding201flr' X='4096' Y='-384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding201w1p1' X='6144' Y='0' Z='3488' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding201w1p2' X='6144' Y='0' Z='4704' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding201w2p1' X='5216' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding201w2p2' X='2976' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding201w3p1' X='2048' Y='0' Z='3488' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding201w3p2' X='2048' Y='0' Z='4704' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding201w4p1' X='2976' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding201w4p2' X='5216' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding202cl' X='8192' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding202flr' X='8192' Y='-384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding202w1p1' X='10240' Y='0' Z='3488' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding202w1p2' X='10240' Y='0' Z='4704' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding202w2p1' X='9312' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding202w2p2' X='7072' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding202w3p1' X='6144' Y='0' Z='3488' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding202w3p2' X='6144' Y='0' Z='4704' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding202w4p1' X='7072' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding202w4p2' X='9312' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding203cl' X='12288' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding203flr' X='12288' Y='-384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding203w1p1' X='14336' Y='0' Z='3488' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding203w1p2' X='14336' Y='0' Z='4704' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding203w2p1' X='13408' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding203w2p2' X='11168' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding203w3p1' X='10240' Y='0' Z='3488' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding203w3p2' X='10240' Y='0' Z='4704' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding203w4p1' X='11168' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding203w4p2' X='13408' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding204cl' X='16384' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding204flr' X='16384' Y='-384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding204w1p1' X='18432' Y='0' Z='3488' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding204w1p2' X='18432' Y='0' Z='4704' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding204w2p1' X='17504' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding204w2p2' X='15264' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding204w3p1' X='14336' Y='0' Z='3488' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding204w3p2' X='14336' Y='0' Z='4704' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding204w4p1' X='15264' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding204w4p2' X='17504' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding210cl' X='0' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding210flr' X='0' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding210w1p1' X='2048' Y='768' Z='3488' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding210w1p2' X='2048' Y='768' Z='4704' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding210w2p1' X='1120' Y='768' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding210w2p2' X='-1120' Y='768' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding210w3p1' X='-2048' Y='768' Z='3488' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding210w3p2' X='-2048' Y='768' Z='4704' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding210w4p1' X='-1120' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding210w4p2' X='1120' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding211cl' X='4096' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding211flr' X='4096' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding211w1p1' X='6144' Y='768' Z='3488' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding211w1p2' X='6144' Y='768' Z='4704' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding211w2p1' X='5216' Y='768' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding211w2p2' X='2976' Y='768' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding211w3p1' X='2048' Y='768' Z='3488' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding211w3p2' X='2048' Y='768' Z='4704' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding211w4p1' X='2976' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding211w4p2' X='5216' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding212cl' X='8192' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding212flr' X='8192' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding212w1p1' X='10240' Y='768' Z='3488' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding212w1p2' X='10240' Y='768' Z='4704' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding212w2p1' X='9312' Y='768' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding212w2p2' X='7072' Y='768' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding212w3p1' X='6144' Y='768' Z='3488' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding212w3p2' X='6144' Y='768' Z='4704' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding212w4p1' X='7072' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding212w4p2' X='9312' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding213cl' X='12288' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding213flr' X='12288' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding213w1p1' X='14336' Y='768' Z='3488' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding213w1p2' X='14336' Y='768' Z='4704' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding213w2p1' X='13408' Y='768' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding213w2p2' X='11168' Y='768' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding213w3p1' X='10240' Y='768' Z='3488' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding213w3p2' X='10240' Y='768' Z='4704' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding213w4p1' X='11168' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding213w4p2' X='13408' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding214cl' X='16384' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding214flr' X='16384' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding214w1p1' X='18432' Y='768' Z='3488' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding214w1p2' X='18432' Y='768' Z='4704' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding214w2p1' X='17504' Y='768' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding214w2p2' X='15264' Y='768' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding214w3p1' X='14336' Y='768' Z='3488' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding214w3p2' X='14336' Y='768' Z='4704' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding214w4p1' X='15264' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding214w4p2' X='17504' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding220cl' X='0' Y='1920' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding220flr' X='0' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding220w1p1' X='2048' Y='1536' Z='3488' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding220w1p2' X='2048' Y='1536' Z='4704' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding220w2p1' X='1120' Y='1536' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding220w2p2' X='-1120' Y='1536' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding220w3p1' X='-2048' Y='1536' Z='3488' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding220w3p2' X='-2048' Y='1536' Z='4704' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding220w4p1' X='-1120' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding220w4p2' X='1120' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding221cl' X='4096' Y='1920' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding221flr' X='4096' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding221w1p1' X='6144' Y='1536' Z='3488' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding221w1p2' X='6144' Y='1536' Z='4704' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding221w2p1' X='5216' Y='1536' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding221w2p2' X='2976' Y='1536' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding221w3p1' X='2048' Y='1536' Z='3488' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding221w3p2' X='2048' Y='1536' Z='4704' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding221w4p1' X='2976' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding221w4p2' X='5216' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding222cl' X='8192' Y='1920' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding222flr' X='8192' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding222w1p1' X='10240' Y='1536' Z='3488' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding222w1p2' X='10240' Y='1536' Z='4704' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding222w2p1' X='9312' Y='1536' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding222w2p2' X='7072' Y='1536' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding222w3p1' X='6144' Y='1536' Z='3488' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding222w3p2' X='6144' Y='1536' Z='4704' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding222w4p1' X='7072' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding222w4p2' X='9312' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding223cl' X='12288' Y='1920' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding223flr' X='12288' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding223w1p1' X='14336' Y='1536' Z='3488' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding223w1p2' X='14336' Y='1536' Z='4704' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding223w2p1' X='13408' Y='1536' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding223w2p2' X='11168' Y='1536' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding223w3p1' X='10240' Y='1536' Z='3488' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding223w3p2' X='10240' Y='1536' Z='4704' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding223w4p1' X='11168' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding223w4p2' X='13408' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding224cl' X='16384' Y='1920' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding224flr' X='16384' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding224w1p1' X='18432' Y='1536' Z='3488' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding224w1p2' X='18432' Y='1536' Z='4704' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding224w2p1' X='17504' Y='1536' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding224w2p2' X='15264' Y='1536' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding224w3p1' X='14336' Y='1536' Z='3488' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding224w3p2' X='14336' Y='1536' Z='4704' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding224w4p1' X='15264' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding224w4p2' X='17504' Y='0' Z='3072' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding300cl' X='0' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding300flr' X='0' Y='-384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding300w1p1' X='2048' Y='0' Z='5536' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding300w1p2' X='2048' Y='0' Z='6752' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding300w2p1' X='1120' Y='0' Z='7168' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding300w2p2' X='-1120' Y='0' Z='7168' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding300w3p1' X='-2048' Y='0' Z='5536' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding300w3p2' X='-2048' Y='0' Z='6752' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding300w4p1' X='-1120' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding300w4p2' X='1120' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding301cl' X='4096' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding301flr' X='4096' Y='-384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding301w1p1' X='6144' Y='0' Z='5536' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding301w1p2' X='6144' Y='0' Z='6752' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding301w2p1' X='5216' Y='0' Z='7168' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding301w2p2' X='2976' Y='0' Z='7168' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding301w3p1' X='2048' Y='0' Z='5536' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding301w3p2' X='2048' Y='0' Z='6752' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding301w4p1' X='2976' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding301w4p2' X='5216' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding302cl' X='8192' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding302flr' X='8192' Y='-384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding302w1p1' X='10240' Y='0' Z='5536' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding302w1p2' X='10240' Y='0' Z='6752' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding302w2p1' X='9312' Y='0' Z='7168' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding302w2p2' X='7072' Y='0' Z='7168' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding302w3p1' X='6144' Y='0' Z='5536' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding302w3p2' X='6144' Y='0' Z='6752' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding302w4p1' X='7072' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding302w4p2' X='9312' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding303cl' X='12288' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding303flr' X='12288' Y='-384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding303w1p1' X='14336' Y='0' Z='5536' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding303w1p2' X='14336' Y='0' Z='6752' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding303w2p1' X='13408' Y='0' Z='7168' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding303w2p2' X='11168' Y='0' Z='7168' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding303w3p1' X='10240' Y='0' Z='5536' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding303w3p2' X='10240' Y='0' Z='6752' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding303w4p1' X='11168' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding303w4p2' X='13408' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding304cl' X='16384' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding304flr' X='16384' Y='-384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding304w1p1' X='18432' Y='0' Z='5536' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding304w1p2' X='18432' Y='0' Z='6752' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding304w2p1' X='17504' Y='0' Z='7168' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding304w2p2' X='15264' Y='0' Z='7168' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding304w3p1' X='14336' Y='0' Z='5536' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding304w3p2' X='14336' Y='0' Z='6752' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding304w4p1' X='15264' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding304w4p2' X='17504' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding310cl' X='0' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding310flr' X='0' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding310w1p1' X='2048' Y='768' Z='5536' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding310w1p2' X='2048' Y='768' Z='6752' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding310w2p1' X='1120' Y='768' Z='7168' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding310w2p2' X='-1120' Y='768' Z='7168' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding310w3p1' X='-2048' Y='768' Z='5536' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding310w3p2' X='-2048' Y='768' Z='6752' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding310w4p1' X='-1120' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding310w4p2' X='1120' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding311cl' X='4096' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding311flr' X='4096' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding311w1p1' X='6144' Y='768' Z='5536' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding311w1p2' X='6144' Y='768' Z='6752' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding311w2p1' X='5216' Y='768' Z='7168' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding311w2p2' X='2976' Y='768' Z='7168' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding311w3p1' X='2048' Y='768' Z='5536' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding311w3p2' X='2048' Y='768' Z='6752' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding311w4p1' X='2976' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding311w4p2' X='5216' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding312cl' X='8192' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding312flr' X='8192' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding312w1p1' X='10240' Y='768' Z='5536' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding312w1p2' X='10240' Y='768' Z='6752' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding312w2p1' X='9312' Y='768' Z='7168' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding312w2p2' X='7072' Y='768' Z='7168' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding312w3p1' X='6144' Y='768' Z='5536' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding312w3p2' X='6144' Y='768' Z='6752' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding312w4p1' X='7072' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding312w4p2' X='9312' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding313cl' X='12288' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding313flr' X='12288' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding313w1p1' X='14336' Y='768' Z='5536' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding313w1p2' X='14336' Y='768' Z='6752' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding313w2p1' X='13408' Y='768' Z='7168' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding313w2p2' X='11168' Y='768' Z='7168' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding313w3p1' X='10240' Y='768' Z='5536' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding313w3p2' X='10240' Y='768' Z='6752' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding313w4p1' X='11168' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding313w4p2' X='13408' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding314cl' X='16384' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding314flr' X='16384' Y='384' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding314w1p1' X='18432' Y='768' Z='5536' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding314w1p2' X='18432' Y='768' Z='6752' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding314w2p1' X='17504' Y='768' Z='7168' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding314w2p2' X='15264' Y='768' Z='7168' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding314w3p1' X='14336' Y='768' Z='5536' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding314w3p2' X='14336' Y='768' Z='6752' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding314w4p1' X='15264' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding314w4p2' X='17504' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding320cl' X='0' Y='1920' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding320flr' X='0' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding320w1p1' X='2048' Y='1536' Z='5536' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding320w1p2' X='2048' Y='1536' Z='6752' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding320w2p1' X='1120' Y='1536' Z='7168' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding320w2p2' X='-1120' Y='1536' Z='7168' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding320w3p1' X='-2048' Y='1536' Z='5536' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding320w3p2' X='-2048' Y='1536' Z='6752' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding320w4p1' X='-1120' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding320w4p2' X='1120' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding321cl' X='4096' Y='1920' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding321flr' X='4096' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding321w1p1' X='6144' Y='1536' Z='5536' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding321w1p2' X='6144' Y='1536' Z='6752' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding321w2p1' X='5216' Y='1536' Z='7168' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding321w2p2' X='2976' Y='1536' Z='7168' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding321w3p1' X='2048' Y='1536' Z='5536' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding321w3p2' X='2048' Y='1536' Z='6752' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding321w4p1' X='2976' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding321w4p2' X='5216' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding322cl' X='8192' Y='1920' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding322flr' X='8192' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding322w1p1' X='10240' Y='1536' Z='5536' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding322w1p2' X='10240' Y='1536' Z='6752' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding322w2p1' X='9312' Y='1536' Z='7168' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding322w2p2' X='7072' Y='1536' Z='7168' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding322w3p1' X='6144' Y='1536' Z='5536' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding322w3p2' X='6144' Y='1536' Z='6752' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding322w4p1' X='7072' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding322w4p2' X='9312' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding323cl' X='12288' Y='1920' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding323flr' X='12288' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding323w1p1' X='14336' Y='1536' Z='5536' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding323w1p2' X='14336' Y='1536' Z='6752' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding323w2p1' X='13408' Y='1536' Z='7168' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding323w2p2' X='11168' Y='1536' Z='7168' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding323w3p1' X='10240' Y='1536' Z='5536' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding323w3p2' X='10240' Y='1536' Z='6752' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding323w4p1' X='11168' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding323w4p2' X='13408' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding324cl' X='16384' Y='1920' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding324flr' X='16384' Y='1152' Z='0' W='4096' H='4' D='2048' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stTl'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding324w1p1' X='18432' Y='1536' Z='5536' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding324w1p2' X='18432' Y='1536' Z='6752' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding324w2p1' X='17504' Y='1536' Z='7168' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding324w2p2' X='15264' Y='1536' Z='7168' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding324w3p1' X='14336' Y='1536' Z='5536' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding324w3p2' X='14336' Y='1536' Z='6752' W='4' H='768' D='832' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding324w4p1' X='15264' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='blding324w4p2' X='17504' Y='0' Z='5120' W='1856' H='768' D='4' TileX='9' TileY='4'>
+<MyTexture>
+<ImageFrames>
+<ThrentityImageFrame NameOfTarget='stW'>
+</ThrentityImageFrame>
+</ImageFrames>
+</MyTexture>
+</Threntity>
+<Threntity Name='prims1'>
+<MyPrimitives>
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+</Primitive>
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+<PrimitiveImages CycleLength='8'>
+<ImageFrames>
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+</PrimitiveImageFrame>
+<PrimitiveImageFrame HexCSVKey='FFFF00,FF00FF' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+</PrimitiveImageFrame>
+</ImageFrames>
+</PrimitiveImages>
+</Primitive>
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+</Primitive>
+</MyPrimitives>
+</Threntity>
+</Threntities>
+</Scene>
+</Scenes>
+</SceneContext>
+</SceneContexts>
+</Game>
