@@ -1,0 +1,64 @@
+<Game Name='ivanCastle'>
+<SceneContexts>
+<SceneContext>
+<MyLogic>
+<OnUpdate>
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y += 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+</SceneContextProceduralStatement>	
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript="if (keyval(**d**)) [( camera.position.y -= 24; )]">
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript="if (keyval(**a**)) [( camera.position.y += 24; )]">
+</SceneContextProceduralStatement>
+</OnUpdate>
+</MyLogic>
+<Scenes>
+<Scene HasAmbientLight='true' AmbientLightIntensity='25' AmbientLightColor='0xffffcf'>
+<PointLights>
+<PointLight Intensity='150' Distance='5000'>
+</PointLight>
+<PointLight X='0' Y='0' Z='2000' Intensity='150' Distance='5000'>
+</PointLight>
+<PointLight X='2000' Y='0' Z='0' Intensity='150' Distance='5000'>
+</PointLight>
+<PointLight X='0' Y='2000' Z='0' Intensity='150' Distance='5000'>
+</PointLight>
+</PointLights>
+<Entities>  
+  <FushigiHub TW="20" TH="20" X="320" Y="320" TileInfo='EntityShell W="16" H="16"' />
+</Entities>
+<Threntities>
+<WaterRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='2' GH='1' GD='3' RW='4096' RD='2048' RH='768' />
+<AnyTileGrid3D DefName='AltFloorQuad' X='1200' Y='1200' Z='1200' W='600' H='600' />
+<AnyTileGrid3D DefName='AltFloorQuad' X='1800' Y='1200' Z='600' W='600' H='600' />
+<AnyTileGrid3D DefName='FloorQuad' X='2400' Y='1200' Z='1200' W='600' H='600' />
+<AnyTileGrid3D DefName='FloorQuad' X='1800' Y='1200' Z='1800' W='600' H='600' />  
+<!--Threntity Name='prims1'>
+<MyPrimitives>
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+</Primitive>
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800' IsQuad='true'>
+<PrimitiveImages CycleLength='32'>
+<ImageFrames>
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+</PrimitiveImageFrame>
+<PrimitiveImageFrame HexCSVKey='FFFF00,FF00FF' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+</PrimitiveImageFrame>
+</ImageFrames>
+</PrimitiveImages>
+</Primitive>
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+</Primitive>
+</MyPrimitives>
+</Threntity-->
+</Threntities>
+</Scene>
+</Scenes>
+</SceneContext>
+</SceneContexts>
+</Game>

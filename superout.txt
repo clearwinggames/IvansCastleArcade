@@ -1,0 +1,4281 @@
+
+Awaiting tasks...
+Starting on folder C:\Users\Administrator\Documents\XMLR\FirstPerson Game\
+
+Starting on file C:\Users\Administrator\Documents\XMLR\FirstPerson Game\main.rzri
+Finally.
+Results written.
+
+Awaiting tasks...
+Starting on folder C:\Users\Administrator\Documents\XMLR\FirstPerson Game\
+
+Starting on file C:\Users\Administrator\Documents\XMLR\FirstPerson Game\main.rzri
+Finally.
+Results written.
+STDPreproc...
+STDPreproc...
+BTXPreproc...
+BTXPreproc...
+Operation complete... Took 0 minutes and 0 seconds to execute against 1 files for 2 iterations.
+
+Press any key...
+RotorProc...
+RotorIterate -- 1
+InputDoc: <Game Name='firstPersonGame79'>
+<SceneContexts>
+<SceneContext>
+<MyLogic>
+<OnUpdate>
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+</SceneContextProceduralStatement>	
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+</SceneContextProceduralStatement>
+</OnUpdate>
+</MyLogic>
+<Scenes>
+<Scene>
+<Threntities>
+
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+
+<Threntity Name='prims1'>
+<MyPrimitives>
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+</Primitive>
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+<PrimitiveImages>
+<ImageFrames>
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+</PrimitiveImageFrame>
+</ImageFrames>
+</PrimitiveImages>
+</Primitive>
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+</Primitive>
+</MyPrimitives>
+</Threntity>
+</Threntities>
+</Scene>
+</Scenes>
+</SceneContext>
+</SceneContexts>
+</Game>
+RotorProc...
+RotorIterate -- 1
+InputDoc: <Game Name='firstPersonGame79'>
+<SceneContexts>
+<SceneContext>
+<MyLogic>
+<OnUpdate>
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+</SceneContextProceduralStatement>	
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+</SceneContextProceduralStatement>
+</OnUpdate>
+</MyLogic>
+<Scenes>
+<Scene>
+<Threntities>
+
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+
+<Threntity Name='prims1'>
+<MyPrimitives>
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+</Primitive>
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+<PrimitiveImages>
+<ImageFrames>
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+</PrimitiveImageFrame>
+</ImageFrames>
+</PrimitiveImages>
+</Primitive>
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+</Primitive>
+</MyPrimitives>
+</Threntity>
+</Threntities>
+</Scene>
+</Scenes>
+</SceneContext>
+</SceneContexts>
+</Game>
+
+Offline output: <Game Name='firstPersonGame79'>
+<SceneContexts>
+<SceneContext>
+<MyLogic>
+<OnUpdate>
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+</SceneContextProceduralStatement>
+</OnUpdate>
+</MyLogic>
+<Scenes>
+<Scene>
+<Threntities>
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+<Threntity Name='prims1'>
+<MyPrimitives>
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+</Primitive>
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+<PrimitiveImages>
+<ImageFrames>
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+</PrimitiveImageFrame>
+</ImageFrames>
+</PrimitiveImages>
+</Primitive>
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+</Primitive>
+</MyPrimitives>
+</Threntity>
+</Threntities>
+</Scene>
+</Scenes>
+</SceneContext>
+</SceneContexts>
+</Game>
+
+Offline output: <Game Name='firstPersonGame79'>
+<SceneContexts>
+<SceneContext>
+<MyLogic>
+<OnUpdate>
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+</SceneContextProceduralStatement>
+</OnUpdate>
+</MyLogic>
+<Scenes>
+<Scene>
+<Threntities>
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+<Threntity Name='prims1'>
+<MyPrimitives>
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+</Primitive>
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+<PrimitiveImages>
+<ImageFrames>
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+</PrimitiveImageFrame>
+</ImageFrames>
+</PrimitiveImages>
+</Primitive>
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+</Primitive>
+</MyPrimitives>
+</Threntity>
+</Threntities>
+</Scene>
+</Scenes>
+</SceneContext>
+</SceneContexts>
+</Game>
+
+Active Line:
+<Game Name='firstPersonGame79'>
+31 characters... Is that okay?
+
+Active Line:
+<Game Name='firstPersonGame79'>
+31 characters... Is that okay?
+
+Active Line:
+<SceneContexts>
+15 characters... Is that okay?
+
+Active Line:
+<SceneContexts>
+15 characters... Is that okay?
+
+Active Line:
+<SceneContext>
+14 characters... Is that okay?
+
+Active Line:
+<SceneContext>
+14 characters... Is that okay?
+
+Active Line:
+<MyLogic>
+9 characters... Is that okay?
+
+Active Line:
+<MyLogic>
+9 characters... Is that okay?
+
+Active Line:
+<OnUpdate>
+10 characters... Is that okay?
+
+Active Line:
+<OnUpdate>
+10 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+98 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+98 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+96 characters... Is that okay?
+96 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+86 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+86 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+89 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+89 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+</OnUpdate>
+11 characters... Is that okay?
+
+Active Line:
+</OnUpdate>
+11 characters... Is that okay?
+
+Active Line:
+</MyLogic>
+10 characters... Is that okay?
+
+Active Line:
+</MyLogic>
+10 characters... Is that okay?
+
+Active Line:
+<Scenes>
+8 characters... Is that okay?
+
+Active Line:
+<Scenes>
+8 characters... Is that okay?
+
+Active Line:
+<Scene>
+7 characters... Is that okay?
+
+Active Line:
+<Scene>
+7 characters... Is that okay?
+
+Active Line:
+<Threntities>
+13 characters... Is that okay?
+
+Active Line:
+<Threntities>
+13 characters... Is that okay?
+
+Active Line:
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+113 characters... Is that okay?
+
+Active Line:
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+113 characters... Is that okay?
+
+Active Line:
+<Threntity Name='prims1'>
+25 characters... Is that okay?
+
+Active Line:
+<Threntity Name='prims1'>
+25 characters... Is that okay?
+
+Active Line:
+<MyPrimitives>
+14 characters... Is that okay?
+
+Active Line:
+<MyPrimitives>
+14 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+99 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+99 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+106 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+106 characters... Is that okay?
+
+Active Line:
+<PrimitiveImages>
+17 characters... Is that okay?
+
+Active Line:
+<PrimitiveImages>
+17 characters... Is that okay?
+
+Active Line:
+<ImageFrames>
+13 characters... Is that okay?
+
+Active Line:
+<ImageFrames>
+13 characters... Is that okay?
+
+Active Line:
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+192 characters... Is that okay?
+
+Active Line:
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+192 characters... Is that okay?
+
+Active Line:
+</PrimitiveImageFrame>
+22 characters... Is that okay?
+
+Active Line:
+</PrimitiveImageFrame>
+22 characters... Is that okay?
+
+Active Line:
+</ImageFrames>
+14 characters... Is that okay?
+
+Active Line:
+</ImageFrames>
+14 characters... Is that okay?
+
+Active Line:
+</PrimitiveImages>
+18 characters... Is that okay?
+
+Active Line:
+</PrimitiveImages>
+18 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+100 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+100 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+</MyPrimitives>
+15 characters... Is that okay?
+
+Active Line:
+</MyPrimitives>
+15 characters... Is that okay?
+
+Active Line:
+</Threntity>
+12 characters... Is that okay?
+
+Active Line:
+</Threntity>
+12 characters... Is that okay?
+
+Active Line:
+</Threntities>
+14 characters... Is that okay?
+
+Active Line:
+</Threntities>
+14 characters... Is that okay?
+
+Active Line:
+</Scene>
+8 characters... Is that okay?
+
+Active Line:
+</Scene>
+8 characters... Is that okay?
+
+Active Line:
+</Scenes>
+9 characters... Is that okay?
+
+Active Line:
+</Scenes>
+9 characters... Is that okay?
+
+Active Line:
+</SceneContext>
+15 characters... Is that okay?
+
+Active Line:
+</SceneContext>
+15 characters... Is that okay?
+
+Active Line:
+</SceneContexts>
+16 characters... Is that okay?
+
+Active Line:
+</SceneContexts>
+16 characters... Is that okay?
+
+Active Line:
+</Game>
+7 characters... Is that okay?
+
+Active Line:
+</Game>
+7 characters... Is that okay?
+
+Online output: 
+
+<Game Name='firstPersonGame79'>
+
+
+<SceneContexts>
+
+
+<SceneContext>
+
+
+<MyLogic>
+
+
+<OnUpdate>
+
+
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+</OnUpdate>
+
+
+</MyLogic>
+
+
+<Scenes>
+
+
+<Scene>
+
+
+<Threntities>
+
+
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+
+
+<Threntity Name='prims1'>
+
+
+<MyPrimitives>
+
+
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+
+
+</Primitive>
+
+
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+
+
+<PrimitiveImages>
+
+
+<ImageFrames>
+
+
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+
+
+</PrimitiveImageFrame>
+
+
+</ImageFrames>
+
+
+</PrimitiveImages>
+
+
+</Primitive>
+
+
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+
+
+</Primitive>
+
+
+</MyPrimitives>
+
+
+</Threntity>
+
+
+</Threntities>
+
+
+</Scene>
+
+
+</Scenes>
+
+
+</SceneContext>
+
+
+</SceneContexts>
+
+
+</Game>
+
+Cleaned output: <Game Name='firstPersonGame79'><SceneContexts><SceneContext><MyLogic><OnUpdate><SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'></SceneContextProceduralStatement></OnUpdate></MyLogic><Scenes><Scene><Threntities><StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' /><Threntity Name='prims1'><MyPrimitives><Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'></Primitive><Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'><PrimitiveImages><ImageFrames><PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'></PrimitiveImageFrame></ImageFrames></PrimitiveImages></Primitive><Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'></Primitive></MyPrimitives></Threntity></Threntities></Scene></Scenes></SceneContext></SceneContexts></Game>RotorIterate -- 2
+InputDoc: <Game Name='firstPersonGame79'><SceneContexts><SceneContext><MyLogic><OnUpdate><SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'></SceneContextProceduralStatement></OnUpdate></MyLogic><Scenes><Scene><Threntities><StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' /><Threntity Name='prims1'><MyPrimitives><Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'></Primitive><Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'><PrimitiveImages><ImageFrames><PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'></PrimitiveImageFrame></ImageFrames></PrimitiveImages></Primitive><Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'></Primitive></MyPrimitives></Threntity></Threntities></Scene></Scenes></SceneContext></SceneContexts></Game>
+Online output: 
+
+<Game Name='firstPersonGame79'>
+
+
+<SceneContexts>
+
+
+<SceneContext>
+
+
+<MyLogic>
+
+
+<OnUpdate>
+
+
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+</OnUpdate>
+
+
+</MyLogic>
+
+
+<Scenes>
+
+
+<Scene>
+
+
+<Threntities>
+
+
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+
+
+<Threntity Name='prims1'>
+
+
+<MyPrimitives>
+
+
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+
+
+</Primitive>
+
+
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+
+
+<PrimitiveImages>
+
+
+<ImageFrames>
+
+
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+
+
+</PrimitiveImageFrame>
+
+
+</ImageFrames>
+
+
+</PrimitiveImages>
+
+
+</Primitive>
+
+
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+
+
+</Primitive>
+
+
+</MyPrimitives>
+
+
+</Threntity>
+
+
+</Threntities>
+
+
+</Scene>
+
+
+</Scenes>
+
+
+</SceneContext>
+
+
+</SceneContexts>
+
+
+</Game>
+
+Cleaned output: <Game Name='firstPersonGame79'><SceneContexts><SceneContext><MyLogic><OnUpdate><SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'></SceneContextProceduralStatement></OnUpdate></MyLogic><Scenes><Scene><Threntities><StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' /><Threntity Name='prims1'><MyPrimitives><Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'></Primitive><Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'><PrimitiveImages><ImageFrames><PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'></PrimitiveImageFrame></ImageFrames></PrimitiveImages></Primitive><Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'></Primitive></MyPrimitives></Threntity></Threntities></Scene></Scenes></SceneContext></SceneContexts></Game>RotorIterate -- 2
+InputDoc: <Game Name='firstPersonGame79'><SceneContexts><SceneContext><MyLogic><OnUpdate><SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'></SceneContextProceduralStatement></OnUpdate></MyLogic><Scenes><Scene><Threntities><StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' /><Threntity Name='prims1'><MyPrimitives><Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'></Primitive><Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'><PrimitiveImages><ImageFrames><PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'></PrimitiveImageFrame></ImageFrames></PrimitiveImages></Primitive><Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'></Primitive></MyPrimitives></Threntity></Threntities></Scene></Scenes></SceneContext></SceneContexts></Game>
+Offline output: <Game Name='firstPersonGame79'>
+<SceneContexts>
+<SceneContext>
+<MyLogic>
+<OnUpdate>
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+</SceneContextProceduralStatement>
+</OnUpdate>
+</MyLogic>
+<Scenes>
+<Scene>
+<Threntities>
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+<Threntity Name='prims1'>
+<MyPrimitives>
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+</Primitive>
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+<PrimitiveImages>
+<ImageFrames>
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+</PrimitiveImageFrame>
+</ImageFrames>
+</PrimitiveImages>
+</Primitive>
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+</Primitive>
+</MyPrimitives>
+</Threntity>
+</Threntities>
+</Scene>
+</Scenes>
+</SceneContext>
+</SceneContexts>
+</Game>
+
+Active Line:
+<Game Name='firstPersonGame79'>
+31 characters... Is that okay?
+
+Offline output: <Game Name='firstPersonGame79'>
+<SceneContexts>
+<SceneContext>
+<MyLogic>
+<OnUpdate>
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+</SceneContextProceduralStatement>
+</OnUpdate>
+</MyLogic>
+<Scenes>
+<Scene>
+<Threntities>
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+<Threntity Name='prims1'>
+<MyPrimitives>
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+</Primitive>
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+<PrimitiveImages>
+<ImageFrames>
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+</PrimitiveImageFrame>
+</ImageFrames>
+</PrimitiveImages>
+</Primitive>
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+</Primitive>
+</MyPrimitives>
+</Threntity>
+</Threntities>
+</Scene>
+</Scenes>
+</SceneContext>
+</SceneContexts>
+</Game>
+
+Active Line:
+<Game Name='firstPersonGame79'>
+31 characters... Is that okay?
+
+Active Line:
+<SceneContexts>
+15 characters... Is that okay?
+
+Active Line:
+<SceneContexts>
+15 characters... Is that okay?
+
+Active Line:
+<SceneContext>
+14 characters... Is that okay?
+
+Active Line:
+<SceneContext>
+14 characters... Is that okay?
+
+Active Line:
+<MyLogic>
+9 characters... Is that okay?
+
+Active Line:
+<MyLogic>
+9 characters... Is that okay?
+
+Active Line:
+<OnUpdate>
+10 characters... Is that okay?
+
+Active Line:
+<OnUpdate>
+10 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+98 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+98 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+96 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+96 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+86 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+86 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+89 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+89 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+</OnUpdate>
+11 characters... Is that okay?
+
+Active Line:
+</OnUpdate>
+11 characters... Is that okay?
+
+Active Line:
+</MyLogic>
+10 characters... Is that okay?
+
+Active Line:
+</MyLogic>
+10 characters... Is that okay?
+
+Active Line:
+<Scenes>
+8 characters... Is that okay?
+
+Active Line:
+<Scenes>
+8 characters... Is that okay?
+
+Active Line:
+<Scene>
+7 characters... Is that okay?
+
+Active Line:
+<Scene>
+7 characters... Is that okay?
+
+Active Line:
+<Threntities>
+13 characters... Is that okay?
+
+Active Line:
+<Threntities>
+13 characters... Is that okay?
+
+Active Line:
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+113 characters... Is that okay?
+
+Active Line:
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+113 characters... Is that okay?
+
+Active Line:
+<Threntity Name='prims1'>
+25 characters... Is that okay?
+
+Active Line:
+<Threntity Name='prims1'>
+25 characters... Is that okay?
+
+Active Line:
+<MyPrimitives>
+14 characters... Is that okay?
+
+Active Line:
+<MyPrimitives>
+14 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+99 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+99 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+106 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+106 characters... Is that okay?
+
+Active Line:
+<PrimitiveImages>
+17 characters... Is that okay?
+
+Active Line:
+<PrimitiveImages>
+17 characters... Is that okay?
+
+Active Line:
+<ImageFrames>
+13 characters... Is that okay?
+
+Active Line:
+<ImageFrames>
+13 characters... Is that okay?
+
+Active Line:
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+192 characters... Is that okay?
+
+Active Line:
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+192 characters... Is that okay?
+
+Active Line:
+</PrimitiveImageFrame>
+22 characters... Is that okay?
+
+Active Line:
+</PrimitiveImageFrame>
+22 characters... Is that okay?
+
+Active Line:
+</ImageFrames>
+14 characters... Is that okay?
+
+Active Line:
+</ImageFrames>
+14 characters... Is that okay?
+
+Active Line:
+</PrimitiveImages>
+18 characters... Is that okay?
+
+Active Line:
+</PrimitiveImages>
+18 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+100 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+100 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+</MyPrimitives>
+15 characters... Is that okay?
+
+Active Line:
+</MyPrimitives>
+15 characters... Is that okay?
+
+Active Line:
+</Threntity>
+12 characters... Is that okay?
+
+Active Line:
+</Threntity>
+12 characters... Is that okay?
+
+Active Line:
+</Threntities>
+14 characters... Is that okay?
+
+Active Line:
+</Threntities>
+14 characters... Is that okay?
+
+Active Line:
+</Scene>
+8 characters... Is that okay?
+
+Active Line:
+</Scene>
+8 characters... Is that okay?
+
+Active Line:
+</Scenes>
+9 characters... Is that okay?
+
+Active Line:
+</Scenes>
+9 characters... Is that okay?
+
+Active Line:
+</SceneContext>
+15 characters... Is that okay?
+
+Active Line:
+</SceneContext>
+15 characters... Is that okay?
+
+Active Line:
+</SceneContexts>
+16 characters... Is that okay?
+
+Active Line:
+</SceneContexts>
+16 characters... Is that okay?
+
+Active Line:
+</Game>
+7 characters... Is that okay?
+
+Active Line:
+</Game>
+7 characters... Is that okay?
+
+Online output: 
+
+<Game Name='firstPersonGame79'>
+
+
+<SceneContexts>
+
+
+<SceneContext>
+
+
+<MyLogic>
+
+
+<OnUpdate>
+
+
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+</OnUpdate>
+
+
+</MyLogic>
+
+
+<Scenes>
+
+
+<Scene>
+
+
+<Threntities>
+
+
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+
+
+<Threntity Name='prims1'>
+
+
+<MyPrimitives>
+
+
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+
+
+</Primitive>
+
+
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+
+
+<PrimitiveImages>
+
+
+<ImageFrames>
+
+
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+
+
+</PrimitiveImageFrame>
+
+
+</ImageFrames>
+
+
+</PrimitiveImages>
+
+
+</Primitive>
+
+
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+
+
+</Primitive>
+
+
+</MyPrimitives>
+
+
+</Threntity>
+
+
+</Threntities>
+
+
+</Scene>
+
+
+</Scenes>
+
+
+</SceneContext>
+
+
+</SceneContexts>
+
+
+</Game>
+
+Cleaned output: <Game Name='firstPersonGame79'><SceneContexts><SceneContext><MyLogic><OnUpdate><SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'></SceneContextProceduralStatement></OnUpdate></MyLogic><Scenes><Scene><Threntities><StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' /><Threntity Name='prims1'><MyPrimitives><Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'></Primitive><Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'><PrimitiveImages><ImageFrames><PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'></PrimitiveImageFrame></ImageFrames></PrimitiveImages></Primitive><Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'></Primitive></MyPrimitives></Threntity></Threntities></Scene></Scenes></SceneContext></SceneContexts></Game>
+Done.
+STDPreproc...
+BTXPreproc...
+RotorProc...
+RotorIterate -- 1
+InputDoc: <Game Name='firstPersonGame79'>
+<SceneContexts>
+<SceneContext>
+<MyLogic>
+<OnUpdate>
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+</SceneContextProceduralStatement>
+</OnUpdate>
+</MyLogic>
+<Scenes>
+<Scene>
+<Threntities>
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+<Threntity Name='prims1'>
+<MyPrimitives>
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+</Primitive>
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+<PrimitiveImages>
+<ImageFrames>
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+</PrimitiveImageFrame>
+</ImageFrames>
+</PrimitiveImages>
+</Primitive>
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+</Primitive>
+</MyPrimitives>
+</Threntity>
+</Threntities>
+</Scene>
+</Scenes>
+</SceneContext>
+</SceneContexts>
+</Game>
+
+Online output: 
+
+<Game Name='firstPersonGame79'>
+
+
+<SceneContexts>
+
+
+<SceneContext>
+
+
+<MyLogic>
+
+
+<OnUpdate>
+
+
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+</OnUpdate>
+
+
+</MyLogic>
+
+
+<Scenes>
+
+
+<Scene>
+
+
+<Threntities>
+
+
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+
+
+<Threntity Name='prims1'>
+
+
+<MyPrimitives>
+
+
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+
+
+</Primitive>
+
+
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+
+
+<PrimitiveImages>
+
+
+<ImageFrames>
+
+
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+
+
+</PrimitiveImageFrame>
+
+
+</ImageFrames>
+
+
+</PrimitiveImages>
+
+
+</Primitive>
+
+
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+
+
+</Primitive>
+
+
+</MyPrimitives>
+
+
+</Threntity>
+
+
+</Threntities>
+
+
+</Scene>
+
+
+</Scenes>
+
+
+</SceneContext>
+
+
+</SceneContexts>
+
+
+</Game>
+
+Cleaned output: <Game Name='firstPersonGame79'><SceneContexts><SceneContext><MyLogic><OnUpdate><SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'></SceneContextProceduralStatement></OnUpdate></MyLogic><Scenes><Scene><Threntities><StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' /><Threntity Name='prims1'><MyPrimitives><Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'></Primitive><Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'><PrimitiveImages><ImageFrames><PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'></PrimitiveImageFrame></ImageFrames></PrimitiveImages></Primitive><Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'></Primitive></MyPrimitives></Threntity></Threntities></Scene></Scenes></SceneContext></SceneContexts></Game>
+Done.
+STDPreproc...
+BTXPreproc...
+RotorProc...
+RotorIterate -- 1
+InputDoc: <Game Name='firstPersonGame79'>
+<SceneContexts>
+<SceneContext>
+<MyLogic>
+<OnUpdate>
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+</SceneContextProceduralStatement>
+</OnUpdate>
+</MyLogic>
+<Scenes>
+<Scene>
+<Threntities>
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+<Threntity Name='prims1'>
+<MyPrimitives>
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+</Primitive>
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+<PrimitiveImages>
+<ImageFrames>
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+</PrimitiveImageFrame>
+</ImageFrames>
+</PrimitiveImages>
+</Primitive>
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+</Primitive>
+</MyPrimitives>
+</Threntity>
+</Threntities>
+</Scene>
+</Scenes>
+</SceneContext>
+</SceneContexts>
+</Game>
+
+Offline output: <Game Name='firstPersonGame79'>
+<SceneContexts>
+<SceneContext>
+<MyLogic>
+<OnUpdate>
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+</SceneContextProceduralStatement>
+</OnUpdate>
+</MyLogic>
+<Scenes>
+<Scene>
+<Threntities>
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+<Threntity Name='prims1'>
+<MyPrimitives>
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+</Primitive>
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+<PrimitiveImages>
+<ImageFrames>
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+</PrimitiveImageFrame>
+</ImageFrames>
+</PrimitiveImages>
+</Primitive>
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+</Primitive>
+</MyPrimitives>
+</Threntity>
+</Threntities>
+</Scene>
+</Scenes>
+</SceneContext>
+</SceneContexts>
+</Game>
+
+Active Line:
+<Game Name='firstPersonGame79'>
+31 characters... Is that okay?
+
+Offline output: <Game Name='firstPersonGame79'>
+<SceneContexts>
+<SceneContext>
+<MyLogic>
+<OnUpdate>
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+</SceneContextProceduralStatement>
+</OnUpdate>
+</MyLogic>
+<Scenes>
+<Scene>
+<Threntities>
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+<Threntity Name='prims1'>
+<MyPrimitives>
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+</Primitive>
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+<PrimitiveImages>
+<ImageFrames>
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+</PrimitiveImageFrame>
+</ImageFrames>
+</PrimitiveImages>
+</Primitive>
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+</Primitive>
+</MyPrimitives>
+</Threntity>
+</Threntities>
+</Scene>
+</Scenes>
+</SceneContext>
+</SceneContexts>
+</Game>
+
+Active Line:
+<Game Name='firstPersonGame79'>
+31 characters... Is that okay?
+
+Active Line:
+<SceneContexts>
+15 characters... Is that okay?
+
+Active Line:
+<SceneContexts>
+15 characters... Is that okay?
+
+Active Line:
+<SceneContext>
+14 characters... Is that okay?
+
+Active Line:
+<SceneContext>
+14 characters... Is that okay?
+
+Active Line:
+<MyLogic>
+9 characters... Is that okay?
+
+Active Line:
+<MyLogic>
+9 characters... Is that okay?
+
+Active Line:
+<OnUpdate>
+10 characters... Is that okay?
+
+Active Line:
+<OnUpdate>
+10 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+98 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+98 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+96 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+96 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+86 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+86 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+89 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+89 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+</OnUpdate>
+11 characters... Is that okay?
+
+Active Line:
+</OnUpdate>
+11 characters... Is that okay?
+
+Active Line:
+</MyLogic>
+10 characters... Is that okay?
+
+Active Line:
+</MyLogic>
+10 characters... Is that okay?
+
+Active Line:
+<Scenes>
+8 characters... Is that okay?
+
+Active Line:
+<Scenes>
+8 characters... Is that okay?
+
+Active Line:
+<Scene>
+7 characters... Is that okay?
+
+Active Line:
+<Scene>
+7 characters... Is that okay?
+
+Active Line:
+<Threntities>
+13 characters... Is that okay?
+
+Active Line:
+<Threntities>
+13 characters... Is that okay?
+
+Active Line:
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+113 characters... Is that okay?
+
+Active Line:
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+113 characters... Is that okay?
+
+Active Line:
+<Threntity Name='prims1'>
+25 characters... Is that okay?
+
+Active Line:
+<Threntity Name='prims1'>
+25 characters... Is that okay?
+
+Active Line:
+<MyPrimitives>
+14 characters... Is that okay?
+
+Active Line:
+<MyPrimitives>
+14 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+99 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+99 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+106 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+106 characters... Is that okay?
+
+Active Line:
+<PrimitiveImages>
+17 characters... Is that okay?
+
+Active Line:
+<PrimitiveImages>
+17 characters... Is that okay?
+
+Active Line:
+<ImageFrames>
+13 characters... Is that okay?
+
+Active Line:
+<ImageFrames>
+13 characters... Is that okay?
+
+Active Line:
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+192 characters... Is that okay?
+
+Active Line:
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+192 characters... Is that okay?
+
+Active Line:
+</PrimitiveImageFrame>
+22 characters... Is that okay?
+
+Active Line:
+</PrimitiveImageFrame>
+22 characters... Is that okay?
+
+Active Line:
+</ImageFrames>
+14 characters... Is that okay?
+
+Active Line:
+</ImageFrames>
+14 characters... Is that okay?
+
+Active Line:
+</PrimitiveImages>
+18 characters... Is that okay?
+
+Active Line:
+</PrimitiveImages>
+18 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+100 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+100 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+</MyPrimitives>
+15 characters... Is that okay?
+
+Active Line:
+</MyPrimitives>
+15 characters... Is that okay?
+
+Active Line:
+</Threntity>
+12 characters... Is that okay?
+
+Active Line:
+</Threntity>
+12 characters... Is that okay?
+
+Active Line:
+</Threntities>
+14 characters... Is that okay?
+
+Active Line:
+</Threntities>
+14 characters... Is that okay?
+
+Active Line:
+</Scene>
+8 characters... Is that okay?
+
+Active Line:
+</Scene>
+8 characters... Is that okay?
+
+Active Line:
+</Scenes>
+9 characters... Is that okay?
+
+Active Line:
+</Scenes>
+9 characters... Is that okay?
+
+Active Line:
+</SceneContext>
+15 characters... Is that okay?
+
+Active Line:
+</SceneContext>
+15 characters... Is that okay?
+
+Active Line:
+</SceneContexts>
+16 characters... Is that okay?
+
+Active Line:
+</SceneContexts>
+16 characters... Is that okay?
+
+Active Line:
+</Game>
+7 characters... Is that okay?
+
+Active Line:
+</Game>
+7 characters... Is that okay?
+
+Online output: 
+
+<Game Name='firstPersonGame79'>
+
+
+<SceneContexts>
+
+
+<SceneContext>
+
+
+<MyLogic>
+
+
+<OnUpdate>
+
+
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+</OnUpdate>
+
+
+</MyLogic>
+
+
+<Scenes>
+
+
+<Scene>
+
+
+<Threntities>
+
+
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+
+
+<Threntity Name='prims1'>
+
+
+<MyPrimitives>
+
+
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+
+
+</Primitive>
+
+
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+
+
+<PrimitiveImages>
+
+
+<ImageFrames>
+
+
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+
+
+</PrimitiveImageFrame>
+
+
+</ImageFrames>
+
+
+</PrimitiveImages>
+
+
+</Primitive>
+
+
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+
+
+</Primitive>
+
+
+</MyPrimitives>
+
+
+</Threntity>
+
+
+</Threntities>
+
+
+</Scene>
+
+
+</Scenes>
+
+
+</SceneContext>
+
+
+</SceneContexts>
+
+
+</Game>
+
+Cleaned output: <Game Name='firstPersonGame79'><SceneContexts><SceneContext><MyLogic><OnUpdate><SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'></SceneContextProceduralStatement></OnUpdate></MyLogic><Scenes><Scene><Threntities><StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' /><Threntity Name='prims1'><MyPrimitives><Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'></Primitive><Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'><PrimitiveImages><ImageFrames><PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'></PrimitiveImageFrame></ImageFrames></PrimitiveImages></Primitive><Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'></Primitive></MyPrimitives></Threntity></Threntities></Scene></Scenes></SceneContext></SceneContexts></Game>RotorIterate -- 2
+InputDoc: <Game Name='firstPersonGame79'><SceneContexts><SceneContext><MyLogic><OnUpdate><SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'></SceneContextProceduralStatement></OnUpdate></MyLogic><Scenes><Scene><Threntities><StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' /><Threntity Name='prims1'><MyPrimitives><Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'></Primitive><Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'><PrimitiveImages><ImageFrames><PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'></PrimitiveImageFrame></ImageFrames></PrimitiveImages></Primitive><Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'></Primitive></MyPrimitives></Threntity></Threntities></Scene></Scenes></SceneContext></SceneContexts></Game>
+Offline output: <Game Name='firstPersonGame79'>
+<SceneContexts>
+<SceneContext>
+<MyLogic>
+<OnUpdate>
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+</SceneContextProceduralStatement>
+</OnUpdate>
+</MyLogic>
+<Scenes>
+<Scene>
+<Threntities>
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+<Threntity Name='prims1'>
+<MyPrimitives>
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+</Primitive>
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+<PrimitiveImages>
+<ImageFrames>
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+</PrimitiveImageFrame>
+</ImageFrames>
+</PrimitiveImages>
+</Primitive>
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+</Primitive>
+</MyPrimitives>
+</Threntity>
+</Threntities>
+</Scene>
+</Scenes>
+</SceneContext>
+</SceneContexts>
+</Game>
+
+Active Line:
+<Game Name='firstPersonGame79'>
+31 characters... Is that okay?
+
+Online output: 
+
+<Game Name='firstPersonGame79'>
+
+
+<SceneContexts>
+
+
+<SceneContext>
+
+
+<MyLogic>
+
+
+<OnUpdate>
+
+
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+</OnUpdate>
+
+
+</MyLogic>
+
+
+<Scenes>
+
+
+<Scene>
+
+
+<Threntities>
+
+
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+
+
+<Threntity Name='prims1'>
+
+
+<MyPrimitives>
+
+
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+
+
+</Primitive>
+
+
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+
+
+<PrimitiveImages>
+
+
+<ImageFrames>
+
+
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+
+
+</PrimitiveImageFrame>
+
+
+</ImageFrames>
+
+
+</PrimitiveImages>
+
+
+</Primitive>
+
+
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+
+
+</Primitive>
+
+
+</MyPrimitives>
+
+
+</Threntity>
+
+
+</Threntities>
+
+
+</Scene>
+
+
+</Scenes>
+
+
+</SceneContext>
+
+
+</SceneContexts>
+
+
+</Game>
+
+Cleaned output: <Game Name='firstPersonGame79'><SceneContexts><SceneContext><MyLogic><OnUpdate><SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'></SceneContextProceduralStatement></OnUpdate></MyLogic><Scenes><Scene><Threntities><StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' /><Threntity Name='prims1'><MyPrimitives><Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'></Primitive><Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'><PrimitiveImages><ImageFrames><PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'></PrimitiveImageFrame></ImageFrames></PrimitiveImages></Primitive><Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'></Primitive></MyPrimitives></Threntity></Threntities></Scene></Scenes></SceneContext></SceneContexts></Game>RotorIterate -- 2
+InputDoc: <Game Name='firstPersonGame79'><SceneContexts><SceneContext><MyLogic><OnUpdate><SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'></SceneContextProceduralStatement></OnUpdate></MyLogic><Scenes><Scene><Threntities><StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' /><Threntity Name='prims1'><MyPrimitives><Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'></Primitive><Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'><PrimitiveImages><ImageFrames><PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'></PrimitiveImageFrame></ImageFrames></PrimitiveImages></Primitive><Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'></Primitive></MyPrimitives></Threntity></Threntities></Scene></Scenes></SceneContext></SceneContexts></Game>
+Offline output: <Game Name='firstPersonGame79'>
+<SceneContexts>
+<SceneContext>
+<MyLogic>
+<OnUpdate>
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+</SceneContextProceduralStatement>
+</OnUpdate>
+</MyLogic>
+<Scenes>
+<Scene>
+<Threntities>
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+<Threntity Name='prims1'>
+<MyPrimitives>
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+</Primitive>
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+<PrimitiveImages>
+<ImageFrames>
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+</PrimitiveImageFrame>
+</ImageFrames>
+</PrimitiveImages>
+</Primitive>
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+</Primitive>
+</MyPrimitives>
+</Threntity>
+</Threntities>
+</Scene>
+</Scenes>
+</SceneContext>
+</SceneContexts>
+</Game>
+
+Active Line:
+<Game Name='firstPersonGame79'>
+31 characters... Is that okay?
+
+Active Line:
+<SceneContexts>
+15 characters... Is that okay?
+
+Active Line:
+<SceneContexts>
+15 characters... Is that okay?
+
+Active Line:
+<SceneContext>
+14 characters... Is that okay?
+
+Active Line:
+<SceneContext>
+14 characters... Is that okay?
+
+Active Line:
+<MyLogic>
+9 characters... Is that okay?
+
+Active Line:
+<MyLogic>
+9 characters... Is that okay?
+
+Active Line:
+<OnUpdate>
+10 characters... Is that okay?
+
+Active Line:
+<OnUpdate>
+10 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+98 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+98 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+96 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+96 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+86 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+86 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+89 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+89 characters... Is that okay?
+
+Active Line:
+</OnUpdate>
+11 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+</MyLogic>
+10 characters... Is that okay?
+
+Active Line:
+</OnUpdate>
+11 characters... Is that okay?
+
+Active Line:
+<Scenes>
+8 characters... Is that okay?
+
+Active Line:
+</MyLogic>
+10 characters... Is that okay?
+
+Active Line:
+<Scene>
+7 characters... Is that okay?
+
+Active Line:
+<Scenes>
+8 characters... Is that okay?
+
+Active Line:
+<Threntities>
+13 characters... Is that okay?
+
+Active Line:
+<Scene>
+7 characters... Is that okay?
+
+Active Line:
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+113 characters... Is that okay?
+
+Active Line:
+<Threntities>
+13 characters... Is that okay?
+
+Active Line:
+<Threntity Name='prims1'>
+25 characters... Is that okay?
+
+Active Line:
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+113 characters... Is that okay?
+
+Active Line:
+<MyPrimitives>
+14 characters... Is that okay?
+
+Active Line:
+<Threntity Name='prims1'>
+25 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+99 characters... Is that okay?
+
+Active Line:
+<MyPrimitives>
+14 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+99 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+106 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+<PrimitiveImages>
+17 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+106 characters... Is that okay?
+
+Active Line:
+<ImageFrames>
+13 characters... Is that okay?
+
+Active Line:
+<PrimitiveImages>
+17 characters... Is that okay?
+
+Active Line:
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+192 characters... Is that okay?
+
+Active Line:
+<ImageFrames>
+13 characters... Is that okay?
+
+Active Line:
+</PrimitiveImageFrame>
+22 characters... Is that okay?
+
+Active Line:
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+192 characters... Is that okay?
+
+Active Line:
+</ImageFrames>
+14 characters... Is that okay?
+
+Active Line:
+</PrimitiveImageFrame>
+22 characters... Is that okay?
+
+Active Line:
+</PrimitiveImages>
+18 characters... Is that okay?
+
+Active Line:
+</ImageFrames>
+14 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+</PrimitiveImages>
+18 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+100 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+100 characters... Is that okay?
+
+Active Line:
+</MyPrimitives>
+15 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+</Threntity>
+12 characters... Is that okay?
+
+Active Line:
+</MyPrimitives>
+15 characters... Is that okay?
+
+Active Line:
+</Threntities>
+14 characters... Is that okay?
+
+Active Line:
+</Threntity>
+12 characters... Is that okay?
+
+Active Line:
+</Scene>
+8 characters... Is that okay?
+
+Active Line:
+</Threntities>
+14 characters... Is that okay?
+
+Active Line:
+</Scenes>
+9 characters... Is that okay?
+
+Active Line:
+</Scene>
+8 characters... Is that okay?
+
+Active Line:
+</SceneContext>
+15 characters... Is that okay?
+
+Active Line:
+</Scenes>
+9 characters... Is that okay?
+
+Active Line:
+</SceneContexts>
+16 characters... Is that okay?
+
+Active Line:
+</SceneContext>
+15 characters... Is that okay?
+
+Active Line:
+</Game>
+7 characters... Is that okay?
+
+Active Line:
+</SceneContexts>
+16 characters... Is that okay?
+
+Online output: 
+
+<Game Name='firstPersonGame79'>
+
+
+<SceneContexts>
+
+
+<SceneContext>
+
+
+<MyLogic>
+
+
+<OnUpdate>
+
+
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+</OnUpdate>
+
+
+</MyLogic>
+
+
+<Scenes>
+
+
+<Scene>
+
+
+<Threntities>
+
+
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+
+
+<Threntity Name='prims1'>
+
+
+<MyPrimitives>
+
+
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+
+
+</Primitive>
+
+
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+
+
+<PrimitiveImages>
+
+
+<ImageFrames>
+
+
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+
+
+</PrimitiveImageFrame>
+
+
+</ImageFrames>
+
+
+</PrimitiveImages>
+
+
+</Primitive>
+
+
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+
+
+</Primitive>
+
+
+</MyPrimitives>
+
+
+</Threntity>
+
+
+</Threntities>
+
+
+</Scene>
+
+
+</Scenes>
+
+
+</SceneContext>
+
+
+</SceneContexts>
+
+
+</Game>
+
+Cleaned output: <Game Name='firstPersonGame79'><SceneContexts><SceneContext><MyLogic><OnUpdate><SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'></SceneContextProceduralStatement></OnUpdate></MyLogic><Scenes><Scene><Threntities><StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' /><Threntity Name='prims1'><MyPrimitives><Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'></Primitive><Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'><PrimitiveImages><ImageFrames><PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'></PrimitiveImageFrame></ImageFrames></PrimitiveImages></Primitive><Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'></Primitive></MyPrimitives></Threntity></Threntities></Scene></Scenes></SceneContext></SceneContexts></Game>
+Done.
+STDPreproc...
+BTXPreproc...
+RotorProc...
+RotorIterate -- 1
+InputDoc: <Game Name='firstPersonGame79'>
+<SceneContexts>
+<SceneContext>
+<MyLogic>
+<OnUpdate>
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+</SceneContextProceduralStatement>
+</OnUpdate>
+</MyLogic>
+<Scenes>
+<Scene>
+<Threntities>
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+<Threntity Name='prims1'>
+<MyPrimitives>
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+</Primitive>
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+<PrimitiveImages>
+<ImageFrames>
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+</PrimitiveImageFrame>
+</ImageFrames>
+</PrimitiveImages>
+</Primitive>
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+</Primitive>
+</MyPrimitives>
+</Threntity>
+</Threntities>
+</Scene>
+</Scenes>
+</SceneContext>
+</SceneContexts>
+</Game>
+
+Active Line:
+</Game>
+7 characters... Is that okay?
+
+Offline output: <Game Name='firstPersonGame79'>
+<SceneContexts>
+<SceneContext>
+<MyLogic>
+<OnUpdate>
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+</SceneContextProceduralStatement>
+</OnUpdate>
+</MyLogic>
+<Scenes>
+<Scene>
+<Threntities>
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+<Threntity Name='prims1'>
+<MyPrimitives>
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+</Primitive>
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+<PrimitiveImages>
+<ImageFrames>
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+</PrimitiveImageFrame>
+</ImageFrames>
+</PrimitiveImages>
+</Primitive>
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+</Primitive>
+</MyPrimitives>
+</Threntity>
+</Threntities>
+</Scene>
+</Scenes>
+</SceneContext>
+</SceneContexts>
+</Game>
+
+Active Line:
+<Game Name='firstPersonGame79'>
+31 characters... Is that okay?
+
+Online output: 
+
+<Game Name='firstPersonGame79'>
+
+
+<SceneContexts>
+
+
+<SceneContext>
+
+
+<MyLogic>
+
+
+<OnUpdate>
+
+
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+</OnUpdate>
+
+
+</MyLogic>
+
+
+<Scenes>
+
+
+<Scene>
+
+
+<Threntities>
+
+
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+
+
+<Threntity Name='prims1'>
+
+
+<MyPrimitives>
+
+
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+
+
+</Primitive>
+
+
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+
+
+<PrimitiveImages>
+
+
+<ImageFrames>
+
+
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+
+
+</PrimitiveImageFrame>
+
+
+</ImageFrames>
+
+
+</PrimitiveImages>
+
+
+</Primitive>
+
+
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+
+
+</Primitive>
+
+
+</MyPrimitives>
+
+
+</Threntity>
+
+
+</Threntities>
+
+
+</Scene>
+
+
+</Scenes>
+
+
+</SceneContext>
+
+
+</SceneContexts>
+
+
+</Game>
+
+Cleaned output: <Game Name='firstPersonGame79'><SceneContexts><SceneContext><MyLogic><OnUpdate><SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'></SceneContextProceduralStatement></OnUpdate></MyLogic><Scenes><Scene><Threntities><StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' /><Threntity Name='prims1'><MyPrimitives><Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'></Primitive><Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'><PrimitiveImages><ImageFrames><PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'></PrimitiveImageFrame></ImageFrames></PrimitiveImages></Primitive><Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'></Primitive></MyPrimitives></Threntity></Threntities></Scene></Scenes></SceneContext></SceneContexts></Game>
+Done.
+STDPreproc...
+BTXPreproc...
+RotorProc...
+RotorIterate -- 1
+InputDoc: <Game Name='firstPersonGame79'>
+<SceneContexts>
+<SceneContext>
+<MyLogic>
+<OnUpdate>
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+</SceneContextProceduralStatement>
+</OnUpdate>
+</MyLogic>
+<Scenes>
+<Scene>
+<Threntities>
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+<Threntity Name='prims1'>
+<MyPrimitives>
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+</Primitive>
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+<PrimitiveImages>
+<ImageFrames>
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+</PrimitiveImageFrame>
+</ImageFrames>
+</PrimitiveImages>
+</Primitive>
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+</Primitive>
+</MyPrimitives>
+</Threntity>
+</Threntities>
+</Scene>
+</Scenes>
+</SceneContext>
+</SceneContexts>
+</Game>
+
+Active Line:
+<SceneContexts>
+15 characters... Is that okay?
+
+Active Line:
+<SceneContext>
+14 characters... Is that okay?
+
+Active Line:
+<MyLogic>
+9 characters... Is that okay?
+
+Active Line:
+<OnUpdate>
+10 characters... Is that okay?
+
+Offline output: <Game Name='firstPersonGame79'>
+<SceneContexts>
+<SceneContext>
+<MyLogic>
+<OnUpdate>
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+</SceneContextProceduralStatement>
+</OnUpdate>
+</MyLogic>
+<Scenes>
+<Scene>
+<Threntities>
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+<Threntity Name='prims1'>
+<MyPrimitives>
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+</Primitive>
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+<PrimitiveImages>
+<ImageFrames>
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+</PrimitiveImageFrame>
+</ImageFrames>
+</PrimitiveImages>
+</Primitive>
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+</Primitive>
+</MyPrimitives>
+</Threntity>
+</Threntities>
+</Scene>
+</Scenes>
+</SceneContext>
+</SceneContexts>
+</Game>
+
+Active Line:
+<Game Name='firstPersonGame79'>
+31 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+98 characters... Is that okay?
+
+Active Line:
+<SceneContexts>
+15 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+<SceneContext>
+14 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+96 characters... Is that okay?
+
+Active Line:
+<MyLogic>
+9 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+<OnUpdate>
+10 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+86 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+98 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+89 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+96 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+</OnUpdate>
+11 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+86 characters... Is that okay?
+
+Active Line:
+</MyLogic>
+10 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+89 characters... Is that okay?
+
+Active Line:
+<Scenes>
+8 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+<Scene>
+7 characters... Is that okay?
+
+Active Line:
+</OnUpdate>
+11 characters... Is that okay?
+
+Active Line:
+<Threntities>
+13 characters... Is that okay?
+
+Active Line:
+</MyLogic>
+10 characters... Is that okay?
+
+Active Line:
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+113 characters... Is that okay?
+
+Active Line:
+<Scenes>
+8 characters... Is that okay?
+
+Active Line:
+<Threntity Name='prims1'>
+25 characters... Is that okay?
+
+Active Line:
+<Scene>
+7 characters... Is that okay?
+
+Active Line:
+<MyPrimitives>
+14 characters... Is that okay?
+
+Active Line:
+<Threntities>
+13 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+99 characters... Is that okay?
+
+Active Line:
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+113 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+<Threntity Name='prims1'>
+25 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+106 characters... Is that okay?
+
+Active Line:
+<MyPrimitives>
+14 characters... Is that okay?
+
+Active Line:
+<PrimitiveImages>
+17 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+99 characters... Is that okay?
+
+Active Line:
+<ImageFrames>
+13 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+192 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+106 characters... Is that okay?
+
+Active Line:
+</PrimitiveImageFrame>
+22 characters... Is that okay?
+
+Active Line:
+<PrimitiveImages>
+17 characters... Is that okay?
+
+Active Line:
+</ImageFrames>
+14 characters... Is that okay?
+
+Active Line:
+<ImageFrames>
+13 characters... Is that okay?
+
+Active Line:
+</PrimitiveImages>
+18 characters... Is that okay?
+
+Active Line:
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+192 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+</PrimitiveImageFrame>
+22 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+100 characters... Is that okay?
+
+Active Line:
+</ImageFrames>
+14 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+</PrimitiveImages>
+18 characters... Is that okay?
+
+Active Line:
+</MyPrimitives>
+15 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+</Threntity>
+12 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+100 characters... Is that okay?
+
+Active Line:
+</Threntities>
+14 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+</Scene>
+8 characters... Is that okay?
+
+Active Line:
+</MyPrimitives>
+15 characters... Is that okay?
+
+Active Line:
+</Scenes>
+9 characters... Is that okay?
+
+Active Line:
+</Threntity>
+12 characters... Is that okay?
+
+Active Line:
+</SceneContext>
+15 characters... Is that okay?
+
+Active Line:
+</Threntities>
+14 characters... Is that okay?
+
+Active Line:
+</SceneContexts>
+16 characters... Is that okay?
+
+Active Line:
+</Scene>
+8 characters... Is that okay?
+
+Active Line:
+</Game>
+7 characters... Is that okay?
+
+Active Line:
+</Scenes>
+9 characters... Is that okay?
+
+Online output: 
+
+<Game Name='firstPersonGame79'>
+
+
+<SceneContexts>
+
+
+<SceneContext>
+
+
+<MyLogic>
+
+
+<OnUpdate>
+
+
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+</OnUpdate>
+
+
+</MyLogic>
+
+
+<Scenes>
+
+
+<Scene>
+
+
+<Threntities>
+
+
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+
+
+<Threntity Name='prims1'>
+
+
+<MyPrimitives>
+
+
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+
+
+</Primitive>
+
+
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+
+
+<PrimitiveImages>
+
+
+<ImageFrames>
+
+
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+
+
+</PrimitiveImageFrame>
+
+
+</ImageFrames>
+
+
+</PrimitiveImages>
+
+
+</Primitive>
+
+
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+
+
+</Primitive>
+
+
+</MyPrimitives>
+
+
+</Threntity>
+
+
+</Threntities>
+
+
+</Scene>
+
+
+</Scenes>
+
+
+</SceneContext>
+
+
+</SceneContexts>
+
+
+</Game>
+
+Cleaned output: <Game Name='firstPersonGame79'><SceneContexts><SceneContext><MyLogic><OnUpdate><SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'></SceneContextProceduralStatement></OnUpdate></MyLogic><Scenes><Scene><Threntities><StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' /><Threntity Name='prims1'><MyPrimitives><Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'></Primitive><Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'><PrimitiveImages><ImageFrames><PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'></PrimitiveImageFrame></ImageFrames></PrimitiveImages></Primitive><Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'></Primitive></MyPrimitives></Threntity></Threntities></Scene></Scenes></SceneContext></SceneContexts></Game>RotorIterate -- 2
+InputDoc: <Game Name='firstPersonGame79'><SceneContexts><SceneContext><MyLogic><OnUpdate><SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'></SceneContextProceduralStatement></OnUpdate></MyLogic><Scenes><Scene><Threntities><StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' /><Threntity Name='prims1'><MyPrimitives><Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'></Primitive><Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'><PrimitiveImages><ImageFrames><PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'></PrimitiveImageFrame></ImageFrames></PrimitiveImages></Primitive><Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'></Primitive></MyPrimitives></Threntity></Threntities></Scene></Scenes></SceneContext></SceneContexts></Game>
+Active Line:
+</SceneContext>
+15 characters... Is that okay?
+
+Offline output: <Game Name='firstPersonGame79'>
+<SceneContexts>
+<SceneContext>
+<MyLogic>
+<OnUpdate>
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+</SceneContextProceduralStatement>
+</OnUpdate>
+</MyLogic>
+<Scenes>
+<Scene>
+<Threntities>
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+<Threntity Name='prims1'>
+<MyPrimitives>
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+</Primitive>
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+<PrimitiveImages>
+<ImageFrames>
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+</PrimitiveImageFrame>
+</ImageFrames>
+</PrimitiveImages>
+</Primitive>
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+</Primitive>
+</MyPrimitives>
+</Threntity>
+</Threntities>
+</Scene>
+</Scenes>
+</SceneContext>
+</SceneContexts>
+</Game>
+
+Active Line:
+<Game Name='firstPersonGame79'>
+31 characters... Is that okay?
+
+Active Line:
+</SceneContexts>
+16 characters... Is that okay?
+
+Active Line:
+<SceneContexts>
+15 characters... Is that okay?
+
+Active Line:
+</Game>
+7 characters... Is that okay?
+
+Online output: 
+
+<Game Name='firstPersonGame79'>
+
+
+<SceneContexts>
+
+
+<SceneContext>
+
+
+<MyLogic>
+
+
+<OnUpdate>
+
+
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+</OnUpdate>
+
+
+</MyLogic>
+
+
+<Scenes>
+
+
+<Scene>
+
+
+<Threntities>
+
+
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+
+
+<Threntity Name='prims1'>
+
+
+<MyPrimitives>
+
+
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+
+
+</Primitive>
+
+
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+
+
+<PrimitiveImages>
+
+
+<ImageFrames>
+
+
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+
+
+</PrimitiveImageFrame>
+
+
+</ImageFrames>
+
+
+</PrimitiveImages>
+
+
+</Primitive>
+
+
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+
+
+</Primitive>
+
+
+</MyPrimitives>
+
+
+</Threntity>
+
+
+</Threntities>
+
+
+</Scene>
+
+
+</Scenes>
+
+
+</SceneContext>
+
+
+</SceneContexts>
+
+
+</Game>
+
+Cleaned output: <Game Name='firstPersonGame79'><SceneContexts><SceneContext><MyLogic><OnUpdate><SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'></SceneContextProceduralStatement></OnUpdate></MyLogic><Scenes><Scene><Threntities><StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' /><Threntity Name='prims1'><MyPrimitives><Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'></Primitive><Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'><PrimitiveImages><ImageFrames><PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'></PrimitiveImageFrame></ImageFrames></PrimitiveImages></Primitive><Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'></Primitive></MyPrimitives></Threntity></Threntities></Scene></Scenes></SceneContext></SceneContexts></Game>RotorIterate -- 2
+InputDoc: <Game Name='firstPersonGame79'><SceneContexts><SceneContext><MyLogic><OnUpdate><SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'></SceneContextProceduralStatement></OnUpdate></MyLogic><Scenes><Scene><Threntities><StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' /><Threntity Name='prims1'><MyPrimitives><Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'></Primitive><Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'><PrimitiveImages><ImageFrames><PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'></PrimitiveImageFrame></ImageFrames></PrimitiveImages></Primitive><Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'></Primitive></MyPrimitives></Threntity></Threntities></Scene></Scenes></SceneContext></SceneContexts></Game>
+Active Line:
+<SceneContext>
+14 characters... Is that okay?
+
+Offline output: <Game Name='firstPersonGame79'>
+<SceneContexts>
+<SceneContext>
+<MyLogic>
+<OnUpdate>
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+</SceneContextProceduralStatement>
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+</SceneContextProceduralStatement>
+</OnUpdate>
+</MyLogic>
+<Scenes>
+<Scene>
+<Threntities>
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+<Threntity Name='prims1'>
+<MyPrimitives>
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+</Primitive>
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+<PrimitiveImages>
+<ImageFrames>
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+</PrimitiveImageFrame>
+</ImageFrames>
+</PrimitiveImages>
+</Primitive>
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+</Primitive>
+</MyPrimitives>
+</Threntity>
+</Threntities>
+</Scene>
+</Scenes>
+</SceneContext>
+</SceneContexts>
+</Game>
+
+Active Line:
+<Game Name='firstPersonGame79'>
+31 characters... Is that okay?
+
+Active Line:
+<MyLogic>
+9 characters... Is that okay?
+
+Active Line:
+<SceneContexts>
+15 characters... Is that okay?
+
+Active Line:
+<OnUpdate>
+10 characters... Is that okay?
+
+Active Line:
+<SceneContext>
+14 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+98 characters... Is that okay?
+
+Active Line:
+<MyLogic>
+9 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+<OnUpdate>
+10 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+96 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+98 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+86 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+96 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+89 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+86 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+</OnUpdate>
+11 characters... Is that okay?
+
+Active Line:
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+89 characters... Is that okay?
+
+Active Line:
+</MyLogic>
+10 characters... Is that okay?
+
+Active Line:
+</SceneContextProceduralStatement>
+34 characters... Is that okay?
+
+Active Line:
+<Scenes>
+8 characters... Is that okay?
+
+Active Line:
+<Scene>
+7 characters... Is that okay?
+
+Active Line:
+</OnUpdate>
+11 characters... Is that okay?
+
+Active Line:
+<Threntities>
+13 characters... Is that okay?
+
+Active Line:
+</MyLogic>
+10 characters... Is that okay?
+
+Active Line:
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+113 characters... Is that okay?
+
+Active Line:
+<Scenes>
+8 characters... Is that okay?
+
+Active Line:
+<Threntity Name='prims1'>
+25 characters... Is that okay?
+
+Active Line:
+<Scene>
+7 characters... Is that okay?
+
+Active Line:
+<MyPrimitives>
+14 characters... Is that okay?
+
+Active Line:
+<Threntities>
+13 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+99 characters... Is that okay?
+
+Active Line:
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+113 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+<Threntity Name='prims1'>
+25 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+106 characters... Is that okay?
+
+Active Line:
+<MyPrimitives>
+14 characters... Is that okay?
+
+Active Line:
+<PrimitiveImages>
+17 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+99 characters... Is that okay?
+
+Active Line:
+<ImageFrames>
+13 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+192 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+106 characters... Is that okay?
+
+Active Line:
+</PrimitiveImageFrame>
+22 characters... Is that okay?
+
+Active Line:
+<PrimitiveImages>
+17 characters... Is that okay?
+
+Active Line:
+</ImageFrames>
+14 characters... Is that okay?
+
+Active Line:
+<ImageFrames>
+13 characters... Is that okay?
+
+Active Line:
+</PrimitiveImages>
+18 characters... Is that okay?
+
+Active Line:
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+192 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+</PrimitiveImageFrame>
+22 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+100 characters... Is that okay?
+
+Active Line:
+</ImageFrames>
+14 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+</PrimitiveImages>
+18 characters... Is that okay?
+
+Active Line:
+</MyPrimitives>
+15 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+</Threntity>
+12 characters... Is that okay?
+
+Active Line:
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+100 characters... Is that okay?
+
+Active Line:
+</Threntities>
+14 characters... Is that okay?
+
+Active Line:
+</Primitive>
+12 characters... Is that okay?
+
+Active Line:
+</Scene>
+8 characters... Is that okay?
+
+Active Line:
+</MyPrimitives>
+15 characters... Is that okay?
+
+Active Line:
+</Scenes>
+9 characters... Is that okay?
+
+Active Line:
+</Threntity>
+12 characters... Is that okay?
+
+Active Line:
+</SceneContext>
+15 characters... Is that okay?
+
+Active Line:
+</Threntities>
+14 characters... Is that okay?
+
+Active Line:
+</SceneContexts>
+16 characters... Is that okay?
+
+Active Line:
+</Scene>
+8 characters... Is that okay?
+
+Active Line:
+</Game>
+7 characters... Is that okay?
+
+Active Line:
+</Scenes>
+9 characters... Is that okay?
+
+Online output: 
+
+<Game Name='firstPersonGame79'>
+
+
+<SceneContexts>
+
+
+<SceneContext>
+
+
+<MyLogic>
+
+
+<OnUpdate>
+
+
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+</OnUpdate>
+
+
+</MyLogic>
+
+
+<Scenes>
+
+
+<Scene>
+
+
+<Threntities>
+
+
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+
+
+<Threntity Name='prims1'>
+
+
+<MyPrimitives>
+
+
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+
+
+</Primitive>
+
+
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+
+
+<PrimitiveImages>
+
+
+<ImageFrames>
+
+
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+
+
+</PrimitiveImageFrame>
+
+
+</ImageFrames>
+
+
+</PrimitiveImages>
+
+
+</Primitive>
+
+
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+
+
+</Primitive>
+
+
+</MyPrimitives>
+
+
+</Threntity>
+
+
+</Threntities>
+
+
+</Scene>
+
+
+</Scenes>
+
+
+</SceneContext>
+
+
+</SceneContexts>
+
+
+</Game>
+
+Cleaned output: <Game Name='firstPersonGame79'><SceneContexts><SceneContext><MyLogic><OnUpdate><SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'></SceneContextProceduralStatement></OnUpdate></MyLogic><Scenes><Scene><Threntities><StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' /><Threntity Name='prims1'><MyPrimitives><Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'></Primitive><Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'><PrimitiveImages><ImageFrames><PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'></PrimitiveImageFrame></ImageFrames></PrimitiveImages></Primitive><Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'></Primitive></MyPrimitives></Threntity></Threntities></Scene></Scenes></SceneContext></SceneContexts></Game>
+Done.
+
+Active Line:
+</SceneContext>
+15 characters... Is that okay?
+
+Active Line:
+</SceneContexts>
+16 characters... Is that okay?
+
+Active Line:
+</Game>
+7 characters... Is that okay?
+
+Online output: 
+
+<Game Name='firstPersonGame79'>
+
+
+<SceneContexts>
+
+
+<SceneContext>
+
+
+<MyLogic>
+
+
+<OnUpdate>
+
+
+<SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+<SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'>
+
+
+</SceneContextProceduralStatement>
+
+
+</OnUpdate>
+
+
+</MyLogic>
+
+
+<Scenes>
+
+
+<Scene>
+
+
+<Threntities>
+
+
+<StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' />
+
+
+<Threntity Name='prims1'>
+
+
+<MyPrimitives>
+
+
+<Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'>
+
+
+</Primitive>
+
+
+<Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'>
+
+
+<PrimitiveImages>
+
+
+<ImageFrames>
+
+
+<PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'>
+
+
+</PrimitiveImageFrame>
+
+
+</ImageFrames>
+
+
+</PrimitiveImages>
+
+
+</Primitive>
+
+
+<Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'>
+
+
+</Primitive>
+
+
+</MyPrimitives>
+
+
+</Threntity>
+
+
+</Threntities>
+
+
+</Scene>
+
+
+</Scenes>
+
+
+</SceneContext>
+
+
+</SceneContexts>
+
+
+</Game>
+
+Cleaned output: <Game Name='firstPersonGame79'><SceneContexts><SceneContext><MyLogic><OnUpdate><SceneContextProceduralStatement MyScript='if (leftkey()) [( camera.rotation.y [pl]= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (rightkey()) [( camera.rotation.y -= 0.03333; )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (upkey()) [( moveCameraForward(24); )]'></SceneContextProceduralStatement><SceneContextProceduralStatement MyScript='if (downkey()) [( moveCameraForward(-24); )]'></SceneContextProceduralStatement></OnUpdate></MyLogic><Scenes><Scene><Threntities><StoneRoomGrid3D Name='blding' DoorWidth='384' TX='9' TY='4' GW='5' GH='3' GD='4' RW='4096' RD='2048' RH='768' /><Threntity Name='prims1'><MyPrimitives><Primitive Name='prim0' FX='60' FY='60' FZ='60' SX='130' SY='130' SZ='60' TX='60' TY='130' TZ='60'></Primitive><Primitive Name='prim1' FX='300' FY='75' FZ='4800' SX='300' SY='75' SZ='5000' TX='375' TY='125' TZ='4800'><PrimitiveImages><ImageFrames><PrimitiveImageFrame HexCSVKey='FF00FF,FFFF00' DelimitedGrid='0,0,0,0,0,0,0,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,1,1,1,1,1,1,0;0,0,0,0,0,0,0,0;'></PrimitiveImageFrame></ImageFrames></PrimitiveImages></Primitive><Primitive Name='prim2' FX='60' FY='60' FZ='60' SX='130' SY='60' SZ='60' TX='130' TY='260' TZ='260'></Primitive></MyPrimitives></Threntity></Threntities></Scene></Scenes></SceneContext></SceneContexts></Game>
+Done.
